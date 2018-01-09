@@ -1,0 +1,29 @@
+{
+	"name": "@iepaas/machine-provider-abstract",
+	"version": "0.0.1-dev.8",
+	"description": "An abstract class representing a vendor-independent machine provider",
+	"main": "index.js",
+	"scripts": {
+		"build": "tsc",
+		"reformat": "prettier --write \"**/*.ts\""
+	},
+	"author": "Pablo Rodríguez <pabloviolin8@gmail.com>",
+	"license": "Apache-2.0",
+	"devDependencies": {
+		"prettier": "^1.9.2",
+		"typescript": "^2.6.2"
+	},
+	"dependencies": {
+		"@iepaas/abstract-key-value-store": "0.0.1-dev.4",
+		"@iepaas/js-client": "0.0.1-dev.3",
+		"@iepaas/resource-provider-abstract": "0.0.1-dev.4"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/iepaas/machine-provider-abstract.git"
+	},
+	"bugs": {
+		"url": "https://github.com/iepaas/machine-provider-abstract/issues"
+	},
+	"homepage": "https://github.com/iepaas/machine-provider-abstract#readme"
+}
